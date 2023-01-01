@@ -33,6 +33,7 @@ public class PipeCreator : MonoBehaviour
         float lowestHeight = transform.position.y - heightOffset;
         float highestHeight = transform.position.y + heightOffset;
 
-        Instantiate(pipe, new Vector3(transform.position.x, Random.Range(lowestHeight, highestHeight), 0), transform.rotation);
+        GameObject newPipe = Instantiate(pipe, new Vector3(transform.position.x, Random.Range(lowestHeight, highestHeight), 0), transform.rotation);
+        newPipe.GetComponent<PipeScript>().gameLevel = 3;
     }
 }

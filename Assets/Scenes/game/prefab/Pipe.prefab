@@ -269,7 +269,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5680b5dde37f4c538a37f1e017f36ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  topPipe: {fileID: 4985638855442807859}
+  bottomPipe: {fileID: 4985638855501644798}
   speed: 10
+  gameLevel: 2
 --- !u!1 &5126850222940689233
 GameObject:
   m_ObjectHideFlags: 0
