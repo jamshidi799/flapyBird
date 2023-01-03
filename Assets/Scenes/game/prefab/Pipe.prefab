@@ -232,6 +232,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4985638856051255978}
   - component: {fileID: 4985638856051255977}
+  - component: {fileID: 6644744985170439231}
   m_Layer: 0
   m_Name: Pipe
   m_TagString: Untagged
@@ -273,6 +274,18 @@ MonoBehaviour:
   bottomPipe: {fileID: 4985638855501644798}
   speed: 10
   gameLevel: 2
+--- !u!114 &6644744985170439231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4985638856051255979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cff109763b3064907b95b10b6aaa0045, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5126850222940689233
 GameObject:
   m_ObjectHideFlags: 0

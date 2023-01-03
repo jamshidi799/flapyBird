@@ -8,7 +8,6 @@ public class PipeScript : MonoBehaviour
     public GameObject topPipe;
     public GameObject bottomPipe;
     public float speed = 10;
-    private float deadZone = -40;
     public int gameLevel = 1;
     private Dictionary<int, Action> map;
 
@@ -21,14 +20,8 @@ public class PipeScript : MonoBehaviour
     }
 
     void Update()
-    {
-        if (transform.position.x < deadZone)
-        {
-            Destroy(gameObject);
-        }
-        
-        map[gameLevel]();
-
+    { 
+       map[gameLevel]();
     }
 
     void Level1()

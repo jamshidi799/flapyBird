@@ -23,12 +23,12 @@ public class BirdScript : MonoBehaviour
     }
 
     void Update() {
-        if (actions.Player.Fly.IsPressed() && isBirdAlive)
+        if (actions.Player.Fly.IsPressed() && isBirdAlive && transform.position.y < cameraSize - 3)
         {
             rigidBody.velocity = Vector2.up * strength;
         }
 
-        if (Mathf.Abs(transform.position.y) > cameraSize)
+        if (transform.position.y < cameraSize * -1)
         {
             finishTheGame();
         }
