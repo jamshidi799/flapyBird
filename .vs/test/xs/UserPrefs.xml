@@ -1,15 +1,21 @@
-﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{E5C00A68-E6DB-FEA3-938C-F34D364EA738}|">
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="de4a9240-bcff-4951-afa5-859927d7ce08" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scenes/game/script/MiddleColliderScript.cs">
+﻿<Properties StartupConfiguration="{E5C00A68-E6DB-FEA3-938C-F34D364EA738}|" GitUserInfo="UsingGIT">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="dd28afb7-fd3f-4de9-ac73-ec6db83cb3fa" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scenes/game/script/Creator.cs">
     <Files>
-      <File FileName="Assets/Scenes/game/script/PipeScript.cs" Line="20" Column="6" />
-      <File FileName="Assets/Scenes/game/script/BirdScript.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scenes/game/script/Creator.cs" />
-      <File FileName="Assets/Scenes/game/script/LogicScript.cs" Line="12" Column="1" />
+      <File FileName="Assets/Scenes/game/script/PipeScript.cs" />
+      <File FileName="Assets/Scenes/game/script/BirdScript.cs" />
+      <File FileName="Assets/Scenes/game/script/Creator.cs" Line="39" Column="10" />
+      <File FileName="Assets/Scenes/game/script/LogicScript.cs" />
       <File FileName="Assets/Scenes/game/script/TransformLeft.cs" />
       <File FileName="Assets/Scenes/game/script/DeadObjectRemover.cs" />
       <File FileName="Assets/Scenes/main/MainMenu.cs" />
-      <File FileName="Assets/Scenes/game/script/MiddleColliderScript.cs" Line="19" Column="10" />
+      <File FileName="Assets/Scenes/game/script/CoinTriggerHandler.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,9 +24,7 @@
             <Node name="Assets" expanded="True">
               <Node name="Scenes" expanded="True">
                 <Node name="game" expanded="True">
-                  <Node name="script" expanded="True">
-                    <Node name="MiddleColliderScript.cs" selected="True" />
-                  </Node>
+                  <Node name="script" expanded="True" />
                 </Node>
               </Node>
             </Node>
@@ -29,10 +33,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

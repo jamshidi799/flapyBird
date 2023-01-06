@@ -2,20 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CoinTriggerHandler : MonoBehaviour
+public class CoinTrigger : MonoBehaviour
 {
-    public LogicScript logic;
+    public LogicManager logic;
 
     public float speed;
 
     private void Start()
     {
-        logic = GameObject.FindGameObjectWithTag("Logic").GetComponent<LogicScript>();
+        logic = GameObject.FindGameObjectWithTag("Logic").GetComponent<LogicManager>();
     }
 
     void Update()
     {
-        Debug.Log(transform.rotation.y);
         transform.Rotate(Vector3.up * Time.deltaTime * speed);
     }
 

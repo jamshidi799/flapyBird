@@ -4,12 +4,15 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class LogicScript : MonoBehaviour
+public class LogicManager : MonoBehaviour
 {
-    private int score = 0;
+
     public Text textScore;
     public GameObject gameOverScreen;
+    public GameObject levelCompleteScreen;
 
+    private int score = 0;
+    private bool isLevelComplete = false;
 
     public void addScore(int count)
     {
@@ -20,11 +23,17 @@ public class LogicScript : MonoBehaviour
     public void resetGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        Debug.Log("reset");
     }
 
     public void gameOver()
     {
-        gameOverScreen.SetActive(true);
+        if (!isLevelComplete)
+            gameOverScreen.SetActive(true);
+    }
+
+    public void LevelComplete()
+    {
+        isLevelComplete = true;
+        levelCompleteScreen.SetActive(true);
     }
 }

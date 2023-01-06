@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BirdScript : MonoBehaviour
+public class Bird : MonoBehaviour
 {
     public Rigidbody2D rigidBody;
     public float strength;
-    private LogicScript logic;
+    private LogicManager logic;
     private bool isBirdAlive = true;
     private int cameraSize = 17;
     private Actions actions;
@@ -19,7 +19,7 @@ public class BirdScript : MonoBehaviour
 
     void Start()
     {
-        logic = GameObject.FindGameObjectWithTag("Logic").GetComponent<LogicScript>();
+        logic = GameObject.FindGameObjectWithTag("Logic").GetComponent<LogicManager>();
     }
 
     void Update() {
