@@ -36,4 +36,9 @@ public class LogicManager : MonoBehaviour
         isLevelComplete = true;
         levelCompleteScreen.SetActive(true);
     }
+
+    public void BackToLevelsScene()
+    {
+        SceneManager.LoadScene("Levels");
+    }
 }
