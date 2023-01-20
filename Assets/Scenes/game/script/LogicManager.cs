@@ -23,6 +23,7 @@ public class LogicManager : MonoBehaviour
     public void resetGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+
     }
 
     public void gameOver()
@@ -35,6 +36,10 @@ public class LogicManager : MonoBehaviour
     {
         isLevelComplete = true;
         levelCompleteScreen.SetActive(true);
+
+        int currentLevel = PlayerPrefs.GetInt("level", 1);
+        PlayerPrefs.SetInt("level", currentLevel + 1);
+        SceneManager.LoadScene("Levels");
     }
 
     public void BackToLevelsScene()

@@ -1,23 +1,17 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{E5C00A68-E6DB-FEA3-938C-F34D364EA738}|">
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="1ebc8063-60a8-43f7-ade6-590acf3c1fbc" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b504d56f-5cd7-48dc-9f1f-57702d594496" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/LevelCompleteEvent.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scenes/game/script/drawer.cs">
     <Files>
-      <File FileName="Assets/Scenes/game/script/PipeScript.cs" Line="26" Column="1" />
-      <File FileName="Assets/Scenes/game/script/BirdScript.cs" Line="5" Column="18" />
-      <File FileName="Assets/Scenes/game/script/Creator.cs" Line="39" Column="10" />
-      <File FileName="Assets/Scenes/game/script/LogicScript.cs" Line="18" Column="6" />
-      <File FileName="Assets/Scenes/game/script/TransformLeft.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scenes/game/script/PipeScript.cs" />
+      <File FileName="Assets/Scenes/game/script/Creator.cs" Line="52" Column="53" />
+      <File FileName="Assets/Scenes/game/script/TransformLeft.cs" />
       <File FileName="Assets/Scenes/game/script/DeadObjectRemover.cs" />
-      <File FileName="Assets/Scenes/main/MainMenu.cs" />
-      <File FileName="Assets/Scenes/game/script/CoinTriggerHandler.cs" Line="5" Column="25" />
-      <File FileName="Assets/Scenes/game/script/FinishController.cs" Line="8" Column="1" />
-      <File FileName="Assets/LevelCompleteEvent.cs" Line="13" Column="1" />
+      <File FileName="Assets/Scenes/main/MainMenu.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scenes/game/script/LogicManager.cs" />
+      <File FileName="Assets/drawer.cs" Line="15" Column="56" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -28,6 +22,7 @@
                 <Node name="game" expanded="True">
                   <Node name="script" expanded="True" />
                 </Node>
+                <Node name="main" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -35,4 +30,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>
